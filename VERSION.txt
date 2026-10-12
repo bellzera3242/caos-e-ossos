@@ -1,0 +1,4 @@
+Caos & Ossos · Edição de Lançamento
+Build: 1.0.0-rc5
+Plataformas: Windows PC + Mobile PWA
+Status: release candidate; recomenda-se validação manual em dispositivo físico.

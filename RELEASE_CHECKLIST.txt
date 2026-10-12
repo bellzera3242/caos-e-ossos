@@ -1,0 +1,20 @@
+CAOS & OSSOS · CHECKLIST DE LANÇAMENTO · RC5
+
+Verificado automaticamente:
+[OK] Página abre em desktop e mobile (Playwright/Chromium).
+[OK] Nenhum erro de JavaScript nas rotas testadas: menu, configurações, criação, início de jogo e controles móveis.
+[OK] Qualidade tem exatamente Baixo, Médio e Alto.
+[OK] A troca do idioma altera o atributo de idioma e as traduções de interface disponíveis.
+[OK] Os controles de toque são exibidos em ecrãs touch; minimapa fica acima da barra inferior em retrato.
+[OK] Os cinco vídeos MP4 têm conteúdo H.264 1280x720 e durações/arquivos distintos.
+[OK] PWA manifest e service worker são locais e incluem assets de gameplay para cache offline.
+[OK] Não há scripts de terceiros/CDNs; nenhum serviço de conta ou telemetria é utilizado.
+[OK] Estrutura de GitHub Pages e script auxiliar de publicação incluídos.
+
+Ainda requer validação manual antes de declarar estável:
+[ ] Teste de sessões prolongadas em Windows real e em Android/iPhone físicos.
+[ ] Confirmar desempenho em aparelhos móveis de entrada.
+[ ] Criar um repositório GitHub vazio na conta do proprietário e enviar os arquivos; não há repositório criado/hospedado por esta build.
+[ ] Boss Rush usa senha client-side `teste`; não é um mecanismo de autenticação seguro contra leitura/alteração de código.
+
+Status: release candidate (1.0.0-rc5), pronto para teste e publicação, não certificado como software livre de bugs.
